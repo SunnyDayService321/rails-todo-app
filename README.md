@@ -14,7 +14,7 @@ Ruby on Rails で構築したシンプルなTodoアプリです。
 
 ## 📁 ディレクトリ構成
 
-\```
+```
 rails-todo-app/
 ├── app/         # モデル・ビュー・コントローラー
 ├── bin/         # 実行スクリプト
@@ -25,43 +25,43 @@ rails-todo-app/
 ├── test/        # テストコード
 ├── Gemfile      # 依存Gem定義
 └── README.md
-\```
+```
 
 ## 🚀 セットアップ手順
 
 ### 1. リポジトリをクローン
 
-\```bash
+```bash
 git clone https://github.com/SunnyDayService321/rails-todo-app.git
 cd rails-todo-app
-\```
+```
 
 ### 2. Gemをインストール
 
-\```bash
+```bash
 bundle install
-\```
+```
 
 ### 3. データベースを作成・マイグレーション
 
-\```bash
+```bash
 rails db:create
 rails db:migrate
-\```
+```
 
 ### 4. 開発サーバーを起動
 
-\```bash
+```bash
 rails server
-\```
+```
 
 ブラウザで http://localhost:3000 にアクセスしてください。
 
 ## 🧪 テストの実行
 
-\```bash
+```bash
 rails test
-\```
+```
 
 ## 📋 主な機能
 
